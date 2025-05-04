@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Footer Styles */
+    .footer {
+      background-color: #242938;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      color: #f0f2f5;
+      padding: 60px 0 20px;
+    }
+    
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    
+    .footer-content {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+    
+    .footer-col {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .footer-logo {
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+    
+    .footer-logo-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #5b75f8, #c28c32);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+      margin-right: 8px;
+    }
+    
+    .footer-logo-text {
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      font-weight: 600;
+      color: #f0f2f5;
+    }
+    
+    .footer-about {
+      color: #a0aec0;
+      margin-bottom: 16px;
+      max-width: 320px;
+      line-height: 1.6;
+    }
+    
+    .footer-heading {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: #f0f2f5;
+    }
+    
+    .footer-links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .footer-link-item {
+      margin-bottom: 10px;
+    }
+    
+    .footer-link {
+      color: #a0aec0;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    
+    .footer-link:hover {
+      color: #78cfd6;
+    }
+    
+    .footer-contact-item {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 16px;
+    }
+    
+    .footer-contact-icon {
+      margin-right: 12px;
+      color: #78cfd6;
+      min-width: 20px;
+    }
+    
+    .footer-contact-text {
+      color: #a0aec0;
+    }
+    
+    .footer-contact-link {
+      color: #a0aec0;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    
+    .footer-contact-link:hover {
+      color: #78cfd6;
+    }
+    
+    .footer-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      padding-top: 20px;
+      text-align: center;
+    }
+    
+    .footer-copyright {
+      color: #a0aec0;
+      font-size: 14px;
+    }
+    
+    .footer-disclaimer {
+      color: #a0aec0;
+      font-size: 12px;
+      margin-top: 8px;
+    }
+    
+    @media (max-width: 768px) {
+      .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-col">
+        <div class="footer-logo">
+          <div class="footer-logo-icon">S</div>
+          <span class="footer-logo-text">SulahMitra</span>
+        </div>
+        <p class="footer-about">
+          Community-driven mediation and dispute resolution service helping individuals and businesses resolve conflicts peacefully.
+        </p>
+      </div>
+      
+      <div class="footer-col">
+        <h3 class="footer-heading">Quick Links</h3>
+        <ul class="footer-links">
+          <li class="footer-link-item">
+            <a href="/" class="footer-link">Home</a>
+          </li>
+          <li class="footer-link-item">
+            <a href="/services" class="footer-link">Services</a>
+          </li>
+          <li class="footer-link-item">
+            <a href="/process" class="footer-link">Our Process</a>
+          </li>
+          <li class="footer-link-item">
+            <a href="/contact" class="footer-link">Contact Us</a>
+          </li>
+          <li class="footer-link-item">
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h3 class="footer-heading">Contact Us</h3>
+        <div class="footer-contact-item">
+          <div class="footer-contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+          <span class="footer-contact-text">
+            123 Peace Avenue, Harmony District, Cityville, CV 12345
+          </span>
+        </div>
+        <div class="footer-contact-item">
+          <div class="footer-contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </div>
+          <a href="tel:+1234567890" class="footer-contact-link">
+            (123) 456-7890
+          </a>
+        </div>
+        <div class="footer-contact-item">
+          <div class="footer-contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </div>
+          <a href="mailto:info@sulahmitra.com" class="footer-contact-link">
+            info@sulahmitra.com
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p class="footer-copyright">© <script>document.write(new Date().getFullYear())</script> SulahMitra. All rights reserved.</p>
+      <p class="footer-disclaimer">
+        SulahMitra is a non-legal dispute resolution service and does not provide legal advice or representation.
+      </p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

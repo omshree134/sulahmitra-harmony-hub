@@ -1,0 +1,377 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - SulahMitra</title>
+  <style>
+    /* Base styles */
+    body {
+      background-color: #1a1f29;
+      color: #f0f2f5;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    
+    .section {
+      padding: 80px 0;
+    }
+    
+    .text-gradient {
+      background: linear-gradient(to right, #78cfd6, #9b87f5);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    
+    .glass-card {
+      background-color: rgba(40, 44, 57, 0.8);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      padding: 24px;
+      transition: transform 0.3s ease;
+    }
+    
+    .glass-card:hover {
+      transform: translateY(-5px);
+    }
+    
+    .btn-primary {
+      background-color: #5b75f8;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      display: inline-block;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    
+    .btn-primary:hover {
+      background-color: #4a61d8;
+    }
+    
+    .text-center {
+      text-align: center;
+    }
+    
+    .grid {
+      display: grid;
+      gap: 30px;
+    }
+    
+    .grid-2 {
+      grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    }
+    
+    .flex {
+      display: flex;
+    }
+    
+    .flex-col {
+      flex-direction: column;
+    }
+    
+    .items-center {
+      align-items: center;
+    }
+    
+    .gap-6 {
+      gap: 24px;
+    }
+    
+    .mb-2 {
+      margin-bottom: 8px;
+    }
+    
+    .mb-4 {
+      margin-bottom: 16px;
+    }
+    
+    .mb-6 {
+      margin-bottom: 24px;
+    }
+    
+    .mb-8 {
+      margin-bottom: 32px;
+    }
+    
+    .mt-8 {
+      margin-top: 32px;
+    }
+    
+    .accent-text {
+      color: #78cfd6;
+    }
+    
+    .muted-text {
+      color: #a0aec0;
+    }
+    
+    @media (max-width: 768px) {
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Services Hero Section -->
+<section class="section" style="padding-top: 120px; padding-bottom: 60px;">
+  <div class="container text-center">
+    <h1 style="font-size: 48px; font-weight: 700; margin-bottom: 24px;">
+      Our <span class="text-gradient">Services</span>
+    </h1>
+    <p style="font-size: 18px; max-width: 700px; margin: 0 auto; color: #a0aec0;">
+      We offer comprehensive mediation services to help resolve a wide range of disputes in a peaceful, 
+      cost-effective, and timely manner.
+    </p>
+  </div>
+</section>
+
+<!-- Main Services Section -->
+<section class="section">
+  <div class="container">
+    <div class="grid grid-2">
+      <!-- Service 1 -->
+      <div class="glass-card">
+        <div class="flex gap-6">
+          <div style="min-width: 60px; height: 60px; border-radius: 12px; background: linear-gradient(135deg, #5b75f8, #78cfd6); display: flex; align-items: center; justify-content: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+              <polyline points="9 22 9 12 15 12 15 22"></polyline>
+            </svg>
+          </div>
+          <div>
+            <h3 style="font-size: 24px; font-weight: 600; margin-bottom: 12px;">Property & Neighbor Disputes</h3>
+            <p class="muted-text mb-4">
+              Resolving conflicts related to property boundaries, shared spaces, noise complaints, lease issues, and other 
+              neighbor-related disputes.
+            </p>
+            <ul style="color: #a0aec0; padding-left: 20px;">
+              <li style="margin-bottom: 8px;">Boundary disagreements</li>
+              <li style="margin-bottom: 8px;">Property damage issues</li>
+              <li style="margin-bottom: 8px;">Landscaping and tree disputes</li>
+              <li style="margin-bottom: 8px;">Shared driveway conflicts</li>
+              <li>Noise and disturbance resolutions</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Service 2 -->
+      <div class="glass-card">
+        <div class="flex gap-6">
+          <div style="min-width: 60px; height: 60px; border-radius: 12px; background: linear-gradient(135deg, #5b75f8, #78cfd6); display: flex; align-items: center; justify-content: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+            </svg>
+          </div>
+          <div>
+            <h3 style="font-size: 24px; font-weight: 600; margin-bottom: 12px;">Family Mediation</h3>
+            <p class="muted-text mb-4">
+              Helping families navigate challenging situations and conflicts with compassion and understanding.
+            </p>
+            <ul style="color: #a0aec0; padding-left: 20px;">
+              <li style="margin-bottom: 8px;">Elder care decisions</li>
+              <li style="margin-bottom: 8px;">Inheritance disagreements</li>
+              <li style="margin-bottom: 8px;">Family business conflicts</li>
+              <li style="margin-bottom: 8px;">Parent-teen communication</li>
+              <li>Family property division</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Service 3 -->
+      <div class="glass-card">
+        <div class="flex gap-6">
+          <div style="min-width: 60px; height: 60px; border-radius: 12px; background: linear-gradient(135deg, #5b75f8, #78cfd6); display: flex; align-items: center; justify-content: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect>
+              <path d="M9 22v-4h6v4"></path>
+              <path d="M8 6h.01"></path>
+              <path d="M16 6h.01"></path>
+              <path d="M12 6h.01"></path>
+              <path d="M12 10h.01"></path>
+              <path d="M12 14h.01"></path>
+              <path d="M16 10h.01"></path>
+              <path d="M16 14h.01"></path>
+              <path d="M8 10h.01"></path>
+              <path d="M8 14h.01"></path>
+            </svg>
+          </div>
+          <div>
+            <h3 style="font-size: 24px; font-weight: 600; margin-bottom: 12px;">Business & Workplace Solutions</h3>
+            <p class="muted-text mb-4">
+              Addressing business conflicts in a way that preserves relationships and protects company interests.
+            </p>
+            <ul style="color: #a0aec0; padding-left: 20px;">
+              <li style="margin-bottom: 8px;">Partnership disputes</li>
+              <li style="margin-bottom: 8px;">Contract disagreements</li>
+              <li style="margin-bottom: 8px;">Workplace conflicts</li>
+              <li style="margin-bottom: 8px;">Client-vendor disputes</li>
+              <li>Small business conflict resolution</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Service 4 -->
+      <div class="glass-card">
+        <div class="flex gap-6">
+          <div style="min-width: 60px; height: 60px; border-radius: 12px; background: linear-gradient(135deg, #5b75f8, #78cfd6); display: flex; align-items: center; justify-content: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+            </svg>
+          </div>
+          <div>
+            <h3 style="font-size: 24px; font-weight: 600; margin-bottom: 12px;">Community Mediation</h3>
+            <p class="muted-text mb-4">
+              Facilitating dialogue and resolution for issues affecting communities and public spaces.
+            </p>
+            <ul style="color: #a0aec0; padding-left: 20px;">
+              <li style="margin-bottom: 8px;">Neighborhood association conflicts</li>
+              <li style="margin-bottom: 8px;">Public space usage disputes</li>
+              <li style="margin-bottom: 8px;">Community project disagreements</li>
+              <li style="margin-bottom: 8px;">Cultural and diversity conflicts</li>
+              <li>Local environmental disputes</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Service 5 -->
+      <div class="glass-card">
+        <div class="flex gap-6">
+          <div style="min-width: 60px; height: 60px; border-radius: 12px; background: linear-gradient(135deg, #5b75f8, #78cfd6); display: flex; align-items: center; justify-content: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <div>
+            <h3 style="font-size: 24px; font-weight: 600; margin-bottom: 12px;">Conflict Prevention</h3>
+            <p class="muted-text mb-4">
+              Proactive services to help prevent conflicts from escalating into more serious disputes.
+            </p>
+            <ul style="color: #a0aec0; padding-left: 20px;">
+              <li style="margin-bottom: 8px;">Conflict management workshops</li>
+              <li style="margin-bottom: 8px;">Communication training programs</li>
+              <li style="margin-bottom: 8px;">Policy development assistance</li>
+              <li style="margin-bottom: 8px;">Early intervention services</li>
+              <li>Relationship building facilitation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Service 6 -->
+      <div class="glass-card">
+        <div class="flex gap-6">
+          <div style="min-width: 60px; height: 60px; border-radius: 12px; background: linear-gradient(135deg, #5b75f8, #78cfd6); display: flex; align-items: center; justify-content: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+          </div>
+          <div>
+            <h3 style="font-size: 24px; font-weight: 600; margin-bottom: 12px;">Specialized Mediation</h3>
+            <p class="muted-text mb-4">
+              Custom mediation services tailored to unique situations and specific industry needs.
+            </p>
+            <ul style="color: #a0aec0; padding-left: 20px;">
+              <li style="margin-bottom: 8px;">Landlord-tenant disputes</li>
+              <li style="margin-bottom: 8px;">Consumer-merchant conflicts</li>
+              <li style="margin-bottom: 8px;">School and educational disputes</li>
+              <li style="margin-bottom: 8px;">Health care disagreements</li>
+              <li>Non-profit organization conflicts</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Process Preview Section -->
+<section class="section" style="background-color: rgba(40, 44, 57, 0.3);">
+  <div class="container">
+    <div class="text-center mb-8">
+      <h2 style="font-size: 36px; font-weight: 700; margin-bottom: 16px;">
+        Our <span class="text-gradient">Approach</span>
+      </h2>
+      <p style="font-size: 18px; max-width: 700px; margin: 0 auto; color: #a0aec0;">
+        Every dispute is unique, but our approach to resolution follows a proven path to success.
+      </p>
+    </div>
+    
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 40px;">
+      <div style="background-color: rgba(40, 44, 57, 0.8); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; padding: 24px; width: 240px; text-align: center;">
+        <div style="width: 60px; height: 60px; border-radius: 50%; background-color: #5b75f8; color: white; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-size: 24px; font-weight: 600;">1</div>
+        <h3 style="font-size: 18px; font-weight: 600; margin-bottom: 12px;">Initial Consultation</h3>
+        <p style="color: #a0aec0; font-size: 14px;">We begin with understanding the nature of your dispute and assessing if mediation is appropriate.</p>
+      </div>
+      
+      <div style="background-color: rgba(40, 44, 57, 0.8); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; padding: 24px; width: 240px; text-align: center;">
+        <div style="width: 60px; height: 60px; border-radius: 50%; background-color: #5b75f8; color: white; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-size: 24px; font-weight: 600;">2</div>
+        <h3 style="font-size: 18px; font-weight: 600; margin-bottom: 12px;">Preparation</h3>
+        <p style="color: #a0aec0; font-size: 14px;">We help all parties prepare for productive mediation by setting ground rules and expectations.</p>
+      </div>
+      
+      <div style="background-color: rgba(40, 44, 57, 0.8); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; padding: 24px; width: 240px; text-align: center;">
+        <div style="width: 60px; height: 60px; border-radius: 50%; background-color: #5b75f8; color: white; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-size: 24px; font-weight: 600;">3</div>
+        <h3 style="font-size: 18px; font-weight: 600; margin-bottom: 12px;">Mediation Sessions</h3>
+        <p style="color: #a0aec0; font-size: 14px;">Our neutral mediators facilitate constructive discussions aimed at finding common ground.</p>
+      </div>
+      
+      <div style="background-color: rgba(40, 44, 57, 0.8); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; padding: 24px; width: 240px; text-align: center;">
+        <div style="width: 60px; height: 60px; border-radius: 50%; background-color: #5b75f8; color: white; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-size: 24px; font-weight: 600;">4</div>
+        <h3 style="font-size: 18px; font-weight: 600; margin-bottom: 12px;">Resolution</h3>
+        <p style="color: #a0aec0; font-size: 14px;">We document agreements and provide follow-up support to ensure lasting resolution.</p>
+      </div>
+    </div>
+    
+    <div class="text-center mt-8">
+      <a href="/process" class="btn-primary">
+        View Our Full Process
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="section" style="background: linear-gradient(to bottom right, #1a1f29, #242938); position: relative; overflow: hidden;">
+  <div style="position: absolute; inset: 0; opacity: 0.1;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at 30% 30%, rgba(91, 117, 248, 0.4), transparent);"></div>
+    <div style="position: absolute; bottom: 0; right: 0; width: 100%; height: 100%; background: radial-gradient(circle at 70% 70%, rgba(194, 140, 50, 0.4), transparent);"></div>
+  </div>
+  
+  <div class="container" style="position: relative; z-index: 1; max-width: 800px; text-align: center;">
+    <h2 style="font-size: 36px; font-weight: 700; margin-bottom: 24px;">
+      Ready to Resolve Your Conflict?
+    </h2>
+    <p style="font-size: 18px; color: #a0aec0; margin-bottom: 32px;">
+      Take the first step towards a peaceful resolution today. Our experienced mediators are here to help you find common ground.
+    </p>
+    <a href="/contact" class="btn-primary">
+      Schedule a Consultation
+    </a>
+  </div>
+</section>
+
+</body>
+</html>
